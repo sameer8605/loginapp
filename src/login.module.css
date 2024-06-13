@@ -1,0 +1,61 @@
+.login_container{
+    background-color: gray;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 30px;
+}
+@media screen and (orientation:portrait){
+    h2{
+    margin-right: 60px;
+    }
+    .login_container{
+        background-color: gray;
+        width: 400px;
+        height: 300px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+@media screen and (orientation:portrait){
+    div+button{
+        width: 100px;
+        height: 20px;
+        border-radius: 20px;
+        margin-right: 66px;
+        background-color: rgb(193, 193, 226);
+        font-size: 16px;
+        font-family: Arial;
+        color: rgb(79, 65, 65);
+        font-weight: bold;
+    }
+}
+
+input{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+label{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+    color: rgb(79, 65, 65);
+}
+
+div+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 85px;
+    background-color: rgb(193, 193, 226);
+    font-size: 16px;
+    font-family: Arial;
+    color: rgb(79, 65, 65);
+    font-weight: bold;
+}
